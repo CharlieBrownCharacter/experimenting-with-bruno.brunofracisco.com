@@ -102,6 +102,35 @@ const props = withDefaults(defineProps<SidebarProps>(), {
           </Collapsible>
         </SidebarMenu>
       </SidebarGroup>
+
+      <SidebarGroup>
+        <SidebarMenu>
+          <Collapsible as-child default-open class="group/collapsible">
+            <SidebarMenuItem>
+              <CollapsibleTrigger as-child>
+                <SidebarMenuButton tooltip="Text animations">
+                  <Diamond />
+                  <span>Shapes</span>
+                  <ChevronRight
+                    class="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90"
+                  />
+                </SidebarMenuButton>
+              </CollapsibleTrigger>
+              <CollapsibleContent>
+                <SidebarMenuSub>
+                  <SidebarMenuSubItem>
+                    <SidebarMenuSubButton as-child>
+                      <RouterLink :to="{ name: 'shapes/FollowCursorShape' }">
+                        <span>Follow cursor shape</span>
+                      </RouterLink>
+                    </SidebarMenuSubButton>
+                  </SidebarMenuSubItem>
+                </SidebarMenuSub>
+              </CollapsibleContent>
+            </SidebarMenuItem>
+          </Collapsible>
+        </SidebarMenu>
+      </SidebarGroup>
     </SidebarContent>
     <SidebarRail />
   </Sidebar>

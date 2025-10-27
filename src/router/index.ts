@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'textAnimations/FollowCursorText',
       component: () => import('../views/TextAnimations/FollowCursorText.vue'),
     },
+    {
+      path: '/shapes/follow-cursor-shape',
+      name: 'shapes/FollowCursorShape',
+      component: () => import('../views/Shapes/FollowCursorShape.vue'),
+    },
   ],
 })
 
