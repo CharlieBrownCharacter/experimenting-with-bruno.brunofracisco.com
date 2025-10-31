@@ -11,7 +11,7 @@ import {
   type SidebarProps,
 } from '@/components/ui/sidebar'
 
-import { ChevronRight, Text, Diamond, FlaskConical } from 'lucide-vue-next'
+import { ChevronRight, Text, Diamond, FlaskConical, TriangleRight } from 'lucide-vue-next'
 
 import { Sidebar, SidebarContent, SidebarRail } from '@/components/ui/sidebar'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
@@ -109,7 +109,7 @@ const props = withDefaults(defineProps<SidebarProps>(), {
             <SidebarMenuItem>
               <CollapsibleTrigger as-child>
                 <SidebarMenuButton tooltip="Text animations">
-                  <Diamond />
+                  <TriangleRight />
                   <span>Shapes</span>
                   <ChevronRight
                     class="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90"
