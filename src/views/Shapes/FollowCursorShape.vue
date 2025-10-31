@@ -102,5 +102,13 @@ const distancePull = ref(400)
     </div>
 
     <h2 class="scroll-m-20 text-3xl font-semibold tracking-tight">Code</h2>
+
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      style="width: 100%; height: 1844px"
+      allow="clipboard-write"
+      src="https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2FCharlieBrownCharacter%2Fexperimenting-with-bruno.brunofracisco.com%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2Fanimations%2FFollowCursorShape.vue&style=a11y-dark&type=code&showLineNumbers=on&showFullPath=on&showCopy=on"
+    ></iframe>
   </div>
 </template>
