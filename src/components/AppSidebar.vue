@@ -125,6 +125,14 @@ const props = withDefaults(defineProps<SidebarProps>(), {
                       </RouterLink>
                     </SidebarMenuSubButton>
                   </SidebarMenuSubItem>
+
+                  <SidebarMenuSubItem>
+                    <SidebarMenuSubButton as-child>
+                      <RouterLink :to="{ name: 'shapes/FillHeartOnClick' }">
+                        <span>Fill heart on click</span>
+                      </RouterLink>
+                    </SidebarMenuSubButton>
+                  </SidebarMenuSubItem>
                 </SidebarMenuSub>
               </CollapsibleContent>
             </SidebarMenuItem>

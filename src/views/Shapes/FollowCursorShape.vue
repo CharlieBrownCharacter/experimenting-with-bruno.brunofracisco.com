@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import NavigationHeader from '@/components/NavigationHeader.vue'
-import { nextTick, onMounted, onUnmounted, ref, shallowRef, useTemplateRef, watch } from 'vue'
+import { ref } from 'vue'
 import FollowCursorShape from '@/components/animations/FollowCursorShape.vue'
 
 const width = ref(1)

@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'shapes/FollowCursorShape',
       component: () => import('../views/Shapes/FollowCursorShape.vue'),
     },
+    {
+      path: '/shapes/fill-heart-on-click',
+      name: 'shapes/FillHeartOnClick',
+      component: () => import('../views/Shapes/FillHeartOnClick.vue'),
+    },
   ],
 })
 
