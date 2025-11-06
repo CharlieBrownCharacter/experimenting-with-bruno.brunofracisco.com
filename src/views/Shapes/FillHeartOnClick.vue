@@ -66,5 +66,33 @@ function onRefreshClick() {
     </div>
 
     <h2 class="scroll-m-20 text-3xl font-semibold tracking-tight">Code</h2>
+
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      style="width: 100%; height: 3419px"
+      allow="clipboard-write"
+      src="https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2FCharlieBrownCharacter%2Fexperimenting-with-bruno.brunofracisco.com%2Fblob%2Fmaster%2Fsrc%2Fcomponents%2Fanimations%2FClickableHeart.vue&style=a11y-dark&type=code&showLineNumbers=on&showFullPath=on&showCopy=on"
+    ></iframe>
+
+    <h3 class="scroll-m-20 text-xl font-semibold tracking-tight">useTween</h3>
+
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      style="width: 100%; height: 752px"
+      allow="clipboard-write"
+      src="https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2FCharlieBrownCharacter%2Fexperimenting-with-bruno.brunofracisco.com%2Fblob%2Fmaster%2Fsrc%2Fcomposables%2FuseTween.ts&style=a11y-dark&type=code&showLineNumbers=on&showFullPath=on&showCopy=on"
+    ></iframe>
+
+    <h3 class="scroll-m-20 text-xl font-semibold tracking-tight">useSpring</h3>
+
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      style="width: 100%; height: 1004px"
+      allow="clipboard-write"
+      src="https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2FCharlieBrownCharacter%2Fexperimenting-with-bruno.brunofracisco.com%2Fblob%2Fmaster%2Fsrc%2Fcomposables%2FuseSpring.ts&style=a11y-dark&type=code&showLineNumbers=on&showFullPath=on&showCopy=on"
+    ></iframe>
   </div>
 </template>
