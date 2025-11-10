@@ -133,6 +133,14 @@ const props = withDefaults(defineProps<SidebarProps>(), {
                       </RouterLink>
                     </SidebarMenuSubButton>
                   </SidebarMenuSubItem>
+
+                  <SidebarMenuSubItem>
+                    <SidebarMenuSubButton as-child>
+                      <RouterLink :to="{ name: 'shapes/LaneSwitching' }">
+                        <span>Lane switching</span>
+                      </RouterLink>
+                    </SidebarMenuSubButton>
+                  </SidebarMenuSubItem>
                 </SidebarMenuSub>
               </CollapsibleContent>
             </SidebarMenuItem>

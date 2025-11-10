@@ -34,6 +34,11 @@ const router = createRouter({
       name: 'shapes/FillHeartOnClick',
       component: () => import('../views/Shapes/FillHeartOnClick.vue'),
     },
+    {
+      path: '/shapes/lane-switching',
+      name: 'shapes/LaneSwitching',
+      component: () => import('../views/Shapes/LaneSwitching.vue'),
+    },
   ],
 })
 
